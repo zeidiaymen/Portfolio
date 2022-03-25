@@ -25,7 +25,13 @@
         <link rel="stylesheet" href="css/responsive.css">
 		<script  type="text/javascript" >
 			
-		
+			function rec () {
+    const speech = new SpeechSynthesisUtterance();
+
+    speech.text = "Welcome to my personal website";
+    window.speechSynthesis.speak(speech);
+  };
+  rec()
 			
 			function countUpdate()
 				{
@@ -279,7 +285,7 @@
 							<p>	• Setting up the paypal gateway using the paypal.sdk api </p>
 <br/>
 								<small><b>Tools :</b> Angular, SpringBoot, Spring scheduler, Spring Batch, Spring Security, MySQL, Git, ThreeJS,
-									A-Frame, Git, Adobe Photoshop. </small>
+									A-Frame, Adobe Photoshop. </small>
 
 							</div>
         			</div>
